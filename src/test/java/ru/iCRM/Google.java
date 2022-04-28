@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import static org.openqa.selenium.Keys.ENTER;
 
 public class Google extends WebDriverSettings {
-    //проверка авторизации
     @Test
     public void Google() throws InterruptedException {
         driver.get("https://www.google.com/");
@@ -16,6 +15,13 @@ public class Google extends WebDriverSettings {
         driver.quit();
     }
     }
+//click. - нажатие на кнопку
+//sendkeys - ввод текста/нажатие конкретной кнопки (с клавы)
+//driver - вызов функции браузера
+//get - переход на страницу
+//findElement - поиск элемента
+//sout - вывод в консоли
+//extends - наследование
 
 
 //    String loginString = driver.findElement(By.xpath("")).getText();
